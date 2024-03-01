@@ -1,14 +1,2 @@
-# underneath can't be changed according to Github
-lsi: false
-safe: true
-#source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-
 # tinkering by me
 url: "https://heerhaan.github.io/"
