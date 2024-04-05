@@ -11,3 +11,36 @@
   width: 200px;
   height: 200px;
 }
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.profile-info {
+  width: 30%;
+}
+
+.profile-info .avatar {
+  width: 100%;
+  height: 300px;
+  background-color: goldenrod;
+}
+
+.profile-info .about-me {
+  width: 100%;
+  height: 300px;
+  background-color: gray;
+}
+
+.profile-content {
+  width: 70%;
+  background-color: gray;
+}
