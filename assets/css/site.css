@@ -1,15 +1,45 @@
+---
+---
+
+html {
+  background-image: url('{{ site.baseurl }}/assets/images/space_tile.png');
+  background-repeat: repeat;
+}
+
 .main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #010310;
+  color: white;
+}
+
+.side-content {
+  width: 200px;
+  padding: 12px 4px;
+  margin: 0 12px;
+}
+
+.side-item {
+  height: 30px;
+}
+
+.post-list-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   min-height: 200px;
-  background-color: #010310;
 }
 
-.post-list-wrapper {
-  width: 200px;
-  height: 200px;
+.post-link {
+  width: 600px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
 .about-container {
@@ -43,4 +73,17 @@
 .profile-content {
   width: 70%;
   background-color: gray;
+}
+
+.post-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.post-content {
+  max-width: 600px;
+  padding: 4px 8px;
+  background-color: darkgray;
 }

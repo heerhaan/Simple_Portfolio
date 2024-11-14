@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Balletjes"
+title:  "Knalletjes"
 date:   2024-03-07 15:56:25 +0100
-categories: bad joke
+categories: test
 ---
 
 # WAUW
-Wat pijnlijk ongrappig dit.
+Ik wordt niet zichtbaar want ik heb geen datum in mijn naam.
