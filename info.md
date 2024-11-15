@@ -1,7 +1,7 @@
 ---
 layout: home
-title: About
-permalink: /about/
+title: Info
+permalink: /info/
 ---
 
 # Gegroet

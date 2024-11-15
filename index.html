@@ -1,0 +1,22 @@
+---
+layout: base
+---
+
+{%- include outrun-banner.html -%}
+
+<div class="main-content">
+    <div class="side-content">
+        <div class="side-item">
+            <a href="{{ "about" }}">Over ik</a>
+        </div>
+    </div>
+    <div class="post-list-wrapper">
+        {% for post in site.posts %}
+            <div class="post-link">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <p>Aangemaakt op {{ post.date }}</p>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="side-content"></div>
+</div>
