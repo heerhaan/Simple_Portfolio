@@ -1,0 +1,39 @@
+---
+layout: base
+title: Projects
+permalink: /projects/
+---
+
+<div class="projects-container">
+    <h1>Projects</h1>
+    
+    <div class="project-list">
+        <div class="project-item">
+            <div class="project-text">
+                <h2>Formula Sim</h2>
+                <p>
+                    Een racesimulatiespel waar je zelf banen, teams, coureurs
+                    en meer kan maken om aan de hand statische en willekeurig
+                    gegenereerde getallen een race te doen.
+                </p>
+            </div>
+            <div class="project-img">
+            </div>
+        </div>
+        <div class="project-item">
+            <div class="project-text">
+                <h2>Deze website</h2>
+                <p>
+                    <i>*Inception geluid</i>
+                </p>
+            </div>
+            <div class="project-img">
+                {% assign image_files = site.static_files | where: "image", true %}
+                {% for myimage in image_files %}
+                    <div>{{ myimage }}</div>
+                    <div>{{ myimage.path }}</div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

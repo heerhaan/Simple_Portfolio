@@ -1,48 +1,63 @@
 ---
-layout: base
+layout: content
 title: About
 permalink: /about/
 ---
 
-<div class="about-container">
-    <div>
-        <h2>Wiemst</h2>
-    </div>
-    <div class="about-content">
-        <div class="profile-info">
-            <div class="avatar">
-                <p>Plaatje van ik</p>
-            </div>
-            <div class="about-me">
-                <p>bla bla bla</p>
-                <p>bla bla bla</p>
-                <p>bla bla bla</p>
+<main class="about-container">
+    <div class="flex side-margins" style="justify-content: center;">
+        <div class="info bg-sec border">
+            <img id="avatar" src="{{ "/assets/images/placeholder.png" | relative_url }}" alt="avatar">
+            <ul>
+                <li>Mika van den Brink</li>
+                <li>13-01-1998</li>
+                <li>Software developer</li>
+            </ul>
+        </div>
+        <div class="description bg-sec border flex">
+            <div>
+                <h1>Wie ben ik?</h1>
+                <p>
+                    Mijn naam is Mika van den Brink, een [gozer]. Al vrij snel aan het begin van mijn studie kreeg ik verschillende ideeën
+                    die ik uit wou werken qua programmeren. Ik zie dat ook als een van mijn sterke kanten, niet alleen de interesse die ik heb voor de digitale wereld maar ook
+                    de inspiratie die ik kan opdoen vanuit mijn eigen fantasie. Ik zou zelf zover willen gaan om te zeggen dat dit een van de dingen is die mij onderscheid van de andere
+                    programmeurs, genoeg creativiteit hebben van mezelf om tot unieke oplossingen te komen.
+                </p>
             </div>
         </div>
-        <div class="profile-contant">
-            <h3>Bla</h3>
-            <p>bla bla bla bla bla bla</p>
-            <p>bla bla bla bla bla bla</p>
-            <p>bla bla bla bla bla bla</p>
-            <p>bla bla bla bla bla bla</p>
-            <p>bla bla bla bla bla bla</p>
+    </section>
+    
+    <div class="skillset bg-sec">
+        <h1>Vaardigheden</h1>
+        <div class="skills flex-col side-margins">
+            <div class="flex">
+                <div class="skill">
+                    <h4>C#</h4>
+                    <div class="bar flex border" style="--p:40%"><span>60%</span></div>
+                </div>
+                <div class="skill">
+                    <h4>Javascript</h4>
+                    <div class="bar flex border" style="--p:45%"><span>55%</span></div>
+                </div>
+                <div class="skill">
+                    <h4>Python</h4>
+                    <div class="bar flex border" style="--p:60%"><span>40%</span></div>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="skill">
+                    <h4>HTML5</h4>
+                    <div class="bar flex border" style="--p:20%"><span>80%</span></div>
+                </div>
+                <div class="skill">
+                    <h4>CSS</h4>
+                    <div class="bar flex border" style="--p:70%"><span>30%</span></div>
+                </div>
+                <div class="skill">
+                    <h4>PHP</h4>
+                    <div class="bar flex border" style="--p:85%"><span>15%</span></div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-
-<h2>Vaardigheden</h2>
-
-<p>Ja natuurlijk, heel veel!</p>
-
-<ul>
-    <li>Programmeren</li>
-    <li>Epibreren</li>
-    <li>C# (ik heb een bril)</li>
-</ul>
-
-<h2>Projecten</h2>
-
-<ul>
-    <li></li>
-    <li>SimTECH</li>
-</ul>
+</main>
